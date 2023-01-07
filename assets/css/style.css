@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Inconsolata&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.post {
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.post h2 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+}
+
+.post p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+    .post h2 {
+        font-size: 1.4rem;
+    }
+}
